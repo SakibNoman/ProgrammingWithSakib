@@ -4,20 +4,34 @@
 
 void function(char ch,int num1,int num2){
   int result;
-  switch(ch){
-    case '+':
+  // switch(ch){
+  //   case '+':
+  //   result = num1+num2;
+  //   break;
+  //   case '-':
+  //   result = num1-num2;
+  //   break;
+  //   case '*':
+  //   result = num1*num2;
+  //   break;
+  //   case '/':
+  //   result = num1/num2;
+  //   break;
+  // }
+
+  if(ch=='+'){
     result = num1+num2;
-    break;
-    case '-':
-    result = num1-num2;
-    break;
-    case '*':
-    result = num1*num2;
-    break;
-    case '/':
-    result = num1/num2;
-    break;
   }
+  if(ch=='-'){
+    result = num1-num2;
+  }
+  if(ch=='*'){
+    result = num1*num2;
+  }
+  if(ch=='/'){
+    result = num1/num2;
+  }
+
   printf("The result is %d\n",result);
 }
 

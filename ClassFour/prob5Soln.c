@@ -4,7 +4,8 @@
 
 int main(){
 
-    int num = 12345;
+    int num;
+    scanf("%d",&num);
     int mult = 1;
     while(num!=0){
       mult*=num%10;  // mult = mult*num%10(Multiplying each number)
