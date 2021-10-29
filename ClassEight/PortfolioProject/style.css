@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+.top-section {
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.top-left {
+  width: 40%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.top-right {
+  width: 40%;
+  float: right;
+}
+
+.name-highlight {
+  color: orange;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 15px 0;
+}
+.first-image {
+  width: 85%;
+  margin-top: 100px;
+}
+
+p {
+  color: dimgray;
+  margin: 15px 0;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #fb6957;
+  color: white;
+  font-size: 16px;
+  border: 0;
+}
