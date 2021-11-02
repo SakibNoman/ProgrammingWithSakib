@@ -82,7 +82,8 @@ button {
 .bottom-section {
   background-image: url("images/exp-bg.png");
   background-repeat: no-repeat;
-  margin-bottom: 400px;
+  height: 400px;
+  background-position: left;
 }
 
 .bottom-left {
@@ -93,6 +94,9 @@ button {
   height: 250px;
   padding: 30px;
   border-radius: 10px;
+  border-left: 6px solid;
+  border-image: linear-gradient(#ffa104, #ff6345);
+  border-image-slice: 1;
 }
 .bottom-right {
   width: 35%;
@@ -102,9 +106,14 @@ button {
   height: 250px;
   padding: 30px;
   border-radius: 10px;
+  border-left: 6px solid;
+  border-image: linear-gradient(#0432ff, #c7c3ff);
+  border-image-slice: 1;
 }
 
 .exp {
-  padding-bottom: 100px;
   color: #fb6a5746;
+}
+.copyright {
+  text-align: center;
 }
