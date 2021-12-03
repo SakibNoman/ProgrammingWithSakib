@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  background-color: white;
+  height: 65px;
+  padding: 0 120px;
+  box-shadow: 0 0 10px grey;
+  position: fixed;
+  width: 83%;
+  z-index: 2;
+}
+main {
+  padding: 80px 120px;
+}
+
+.nav-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.logo-best {
+  color: #f83292;
+}
+.logo-app {
+  color: #814096;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #814096;
+  font-size: large;
+  margin-left: 20px;
+}
+.nav-items a:hover {
+  color: #f83292;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.hero-section p {
+  margin-bottom: 15px;
+}
+.showcase {
+  color: #f83292;
+}
+
+.hero-right img {
+  width: 500px;
+  animation-name: heroImage;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heroImage {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* button */
+
+.button {
+  padding: 10px 35px;
+  border: 0;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  background-image: linear-gradient(90deg, #814096, #f83292);
+  transition: transform 500ms ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.features h1 {
+  color: #814096;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.feature-container {
+  display: flex;
+  column-gap: 40px;
+  justify-content: center;
+}
+.feature {
+  width: 30%;
+  box-shadow: 0 0 5px 1px rgb(128 128 128 / 59%);
+  border-radius: 7px;
+  padding: 20px;
+  text-align: center;
+}
+.feature h2 {
+  font-weight: 500;
+  color: rgba(19, 19, 19, 0.753);
+  margin-top: 20px;
+  font-size: 22px;
+}
+.feature p {
+  color: dimgray;
+  margin: 20px 0;
+}
